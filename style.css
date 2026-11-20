@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 6px 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input, form select {
+    margin-left: 5px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.summary {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #f0f0f0;
+}
